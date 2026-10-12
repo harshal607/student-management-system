@@ -1,5 +1,8 @@
 
-def get_student(name):
-    return f"Student: {name}"
+def get_student(name, email):
+    return f"Student: {name}, Email: {email}"
 
-print(get_student("Senha"))
+
+print(get_student("Sneha", "sneha@example.com"))
+
+print(get_student("Amit", "amit@example.com"))
